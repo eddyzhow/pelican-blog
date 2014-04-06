@@ -15,5 +15,5 @@ sudo apt-get install libmagickwand-dev imagemagick
 and then cd to your directory and run :
 
 ```
-for file in *.jpg ; do convert “$file[144x]” “./thumbs/${file/%jpg/png}” ; done
+for file in *.jpg ; do convert "$file[144x]" "./thumbs/${file/%jpg/png}" ; done
 ```
